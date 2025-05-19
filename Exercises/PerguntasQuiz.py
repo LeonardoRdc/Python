@@ -1,8 +1,8 @@
 perguntas = [
     {
-       "pergunta": "Quem é o mais viado?",
-        "alternativas":"A) Arthurzola \nB) Renanzola \nC) VinoBaitola",
-        "resposta": "c"
+       "pergunta": "Quantos pokémon tem a primeira geração de jogos?",
+        "alternativas":"A) 150 \nB) 151 \nC) 225",
+        "resposta": "b"
     },
     {
         "pergunta": "Qual é a capital do Brasil?",
