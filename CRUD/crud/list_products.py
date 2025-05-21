@@ -1,4 +1,4 @@
-from main import conectar
+from database.bdconnection import conectar
 
 def listar_produtos():
     connection = conectar()
@@ -13,6 +13,8 @@ def listar_produtos():
         nome = produto [1]
         valor = produto [2]
         print(f'ID: {id} | Produto: {nome} | Valor: R${valor}')
+
+    return results
 
     cursor.close()
     connection.close()

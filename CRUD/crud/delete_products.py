@@ -1,4 +1,4 @@
-from main import conectar
+from database.bdconnection import conectar
 
 def deletar_produtos(nome_produto):
     connection = conectar()

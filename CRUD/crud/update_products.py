@@ -1,4 +1,4 @@
-from main import conectar
+from database.bdconnection import conectar
 
 def atualizar_produtos(novo_nome, novo_valor, id):
     connection = conectar()

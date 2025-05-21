@@ -1,4 +1,4 @@
-from main import conectar
+from database.bdconnection import conectar
 
 def criar_produto(nome_produto, valor):
     connection = conectar()
